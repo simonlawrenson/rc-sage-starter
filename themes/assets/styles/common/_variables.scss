@@ -1,0 +1,96 @@
+/****************************************
+ * Grid settings
+****************************************/
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+/****************************************
+ * Branding colors
+****************************************/
+$brand-primary:		 #DE0000;
+$brand-secondary:	 #DE0000;
+$brand-grey:  		 #5A726F;
+$brand-grey-dark:  #383838;
+$brand-grey-light: #D8D8D8;
+
+$color-white: 		 #FFFFFF;
+$color-black: 		 #000000;
+$color-body: 			 #3B3A32;
+
+/****************************************
+ * Typography fonts
+****************************************/
+$font-brand: 'Roboto Condensed', sans-serif;
+$font-body: 'Roboto', sans-serif;
+
+$headings-font-weight: 700;
+
+/*$h1-font-size: 3rem !default;*/
+/*$h2-font-size: 2rem !default;*/
+/*$h3-font-size: 1.75rem !default;*/
+/*$h4-font-size: 1.5rem !default;*/
+/*$h5-font-size: 1.25rem !default;*/
+/*$h6-font-size: 1rem !default;*/
+
+/****************************************
+ * Links & Buttons
+****************************************/
+$link:							$brand-primary;
+$link-focus: 				lighten( $link, 10% );
+$link-color: 				$brand-primary;
+$link-hover-color:  lighten($link-color, 15%);
+
+/* Buttons */
+$border-radius: 0 !default;
+$btn-border-radius: 0 !default;
+
+$input-btn-padding-y:         .625rem !default;
+$input-btn-padding-x:         2.5rem !default;
+$input-btn-padding-y-sm:      .25rem !default;
+$input-btn-padding-x-sm:      .5rem !default;
+$input-btn-padding-y-lg:      .5rem !default;
+$input-btn-padding-x-lg:      1rem !default;
+
+$btn-padding-y:            $input-btn-padding-y !default;
+$btn-padding-x:            $input-btn-padding-x !default;
+$btn-padding-y-sm:            $input-btn-padding-y-sm !default;
+$btn-padding-x-sm:            $input-btn-padding-x-sm !default;
+$btn-padding-y-lg:            $input-btn-padding-y-lg !default;
+$btn-padding-x-lg:            $input-btn-padding-x-lg !default;
+
+$input-btn-border-width:      0 !default;
+$btn-border-width:            0 !default;
+
+$input-btn-focus-color:       $color-black !default;
+
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           0 !default;
+$btn-border-radius-lg:        0 !default;
+$btn-border-radius-sm:        0 !default;
+
+$btn-transition:              color .3 ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out, box-shadow .3s ease-in-out !default;
+
+
+/****************************************
+ * Dropdowns
+****************************************/
+$dropdown-padding-y:             0;
+$dropdown-spacer:                0;
+$dropdown-bg:                    $brand-primary !default;
+
+$dropdown-link-color:            $color-white !default;
+$dropdown-link-hover-color:      $color-white !default;
+$dropdown-link-hover-bg:         lighten($brand-secondary, 15%) !default;
+$dropdown-link-active-color:     $brand-primary !default;
+$dropdown-link-active-bg:        lighten($brand-secondary, 15%);
+
+
+$dropdown-item-padding-y:        .5rem !default;
+$dropdown-item-padding-x:        .75rem !default;
+
+/****************************************
+ * Custom
+****************************************/
+$font-size-md: 									 1.125rem !default;
+$section-padding-y: 						 3rem !default;;

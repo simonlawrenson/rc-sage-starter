@@ -1,0 +1,72 @@
+/*
+ ****************************************
+ *	Font Import
+ ****************************************
+ */
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../fonts/eurostile-webfont.eot'); /* IE9 Compat Modes */
+  	src: url('../fonts/eurostile-webfont.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+    	 url('../fonts/eurostile-webfont.woff2') format('woff2'), /* Modern Browsers */
+    	 url('../fonts/eurostile-webfont.woff') format('woff'),
+    	 url('../fonts/eurostile-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    	 url('../fonts/eurostile-webfont.svg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+}
+/****************************************
+ * General Styling
+****************************************/
+html,body {
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-body;
+  @media(max-width: 300px) {
+  	word-wrap: break-word;
+  	overflow-wrap: break-word;
+  }
+}
+/****************************************
+ * Title Styling
+****************************************/
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family: $font-brand;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+/****************************************
+ * Link Styling
+****************************************/
+a {
+	color: $brand-primary;
+	transition: all .3s ease-in;
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+		color: $brand-secondary;
+		transition: all .3s ease-in;
+	}
+}
+/****************************************
+ * Formatting Styling
+****************************************/
+strong {
+	font-weight: 700;
+}
+ul, li {
+	font-weight: 400;
+}
+svg.svg-inline--fa {
+	vertical-align: middle;
+}
+/****************************************
+ * Global Styling
+****************************************/
+.content > .main {
+	padding: 0;
+}
+.logged-in .banner.fixed-top {
+	top: 32px;
+}
+

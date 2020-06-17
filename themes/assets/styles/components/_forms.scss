@@ -1,0 +1,58 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+/****************************************
+ * Gravity Forms
+****************************************/
+.gform_wrapper .gfield {
+	.gfield_label, .name_first label {
+		display: none !important;
+	}
+	.ginput_container {
+		.name_first {
+			padding-top: 0;
+			padding-right: 0;
+		}
+		input[type=text], input[type=email], input[type=file], textarea {
+			border: none;
+			/*border-bottom: 2px solid $color-grey;*/
+	    font-size: $font-size-lg;
+	    letter-spacing: normal;
+			padding: 10px 15px;
+			&:active, &:focus {
+				/*border-bottom-color: $brand-primary;*/
+			}
+		}
+	}
+	:placeholder-shown {
+		color: rgba(0,0,0,.5);
+	}
+	::-webkit-input-placeholder {
+		color: rgba(0,0,0,.5);
+	}
+	:-moz-placeholder {
+		color: rgba(0,0,0,.5);
+	}
+	::-moz-placeholder {
+		color: rgba(0,0,0,.5);
+	}
+	:-ms-input-placeholder {
+		color: rgba(0,0,0,.5);
+	}
+	::-ms-input-placeholder {
+		color: rgba(0,0,0,.5);
+	}
+}

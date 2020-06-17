@@ -1,0 +1,50 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/fontawesome-all.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "acf-google-map.js": {
+      "files": [
+        "scripts/acf-google-map.js"
+      ]
+    },
+    "slick.js": {
+      "files": [
+        "scripts/slick.js"
+      ]
+    },
+    "lightbox.js": {
+      "files": [
+        "scripts/lightbox.js"
+      ]
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "slick.css": {
+      "files": [
+        "styles/slick.css"
+      ]
+    },
+    "lightbox.css": {
+      "files": [
+        "styles/lightbox.css"
+      ]
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    }
+  },
+  "config": {
+    "devUrl": "http://url.com.au.localhost"
+  }
+}

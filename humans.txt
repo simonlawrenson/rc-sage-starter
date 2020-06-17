@@ -1,0 +1,16 @@
+/* humanstxt.org */
+Last update: 2020/04/08
+
+/* TEAM */
+  Developer: Simon Lawrenson
+  Contact: hello@lawrenson.dev
+  Twitter: @simonlawrenson
+  From: Liverpool, England
+  Location: Melboune, Australia
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript, PHP
+Components: Modernizr
+Software Frontend: Git, SASS, Tailwind, Yarn
+Software Backend: Git, Roots/Sage, Wordpress
+IDE: VS Code
